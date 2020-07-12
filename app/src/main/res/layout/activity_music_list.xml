@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MusicList">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Top 5 Songs:"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/song1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/song1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/song2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/song2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/song1" />
+
+    <TextView
+        android:id="@+id/song3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/song3"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/song2" />
+
+    <TextView
+        android:id="@+id/song4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/song4"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/song3" />
+
+    <TextView
+        android:id="@+id/song5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/song5"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/song4"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <ImageButton
+        android:id="@+id/playSong1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/youtubeSong1"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toEndOf="@+id/song1"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/playSong2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/youtubeSong2"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toEndOf="@+id/song2"
+        app:layout_constraintTop_toBottomOf="@+id/playSong1"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/playSong3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/youtubeSong3"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toEndOf="@+id/song3"
+        app:layout_constraintTop_toBottomOf="@+id/playSong2"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/playSong4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/youtubeSong4"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toEndOf="@+id/song4"
+        app:layout_constraintTop_toBottomOf="@+id/playSong3"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/playSong5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/youtubeSong5"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toEndOf="@+id/song5"
+        app:layout_constraintTop_toBottomOf="@+id/playSong4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/youtubeSong1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/youtube_logo_scaled" />
+
+    <ImageButton
+        android:id="@+id/youtubeSong2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#00685555"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youtubeSong1"
+        app:srcCompat="@drawable/youtube_logo_scaled" />
+
+    <ImageButton
+        android:id="@+id/youtubeSong3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youtubeSong2"
+        app:srcCompat="@drawable/youtube_logo_scaled" />
+
+    <ImageButton
+        android:id="@+id/youtubeSong4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youtubeSong3"
+        app:srcCompat="@drawable/youtube_logo_scaled" />
+
+    <ImageButton
+        android:id="@+id/youtubeSong5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#007E4242"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youtubeSong4"
+        app:layout_constraintVertical_bias="0.345"
+        app:srcCompat="@drawable/youtube_logo_scaled" />
+
+    <ImageButton
+        android:id="@+id/backToAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/backgroundNavButtons"
+        android:rotation="180"
+        android:tint="@color/foregrounfNavButtons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

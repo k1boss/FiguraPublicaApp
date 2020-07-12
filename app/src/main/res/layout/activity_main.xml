@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbking"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/quoteText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/intro_quote"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/goToMainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/backgroundNavButtons"
+        android:contentDescription="@string/nextbutton"
+        android:tint="@color/foregrounfNavButtons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".PhotoAlbum">
+
+    <TextView
+        android:id="@+id/photoAlbumLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Photo Album"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView
+        android:id="@+id/photoGridView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="60dp"
+        android:numColumns="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photoAlbumLabel" />
+
+    <ImageButton
+        android:id="@+id/backToBiography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/backgroundNavButtons"
+        android:rotation="180"
+        android:tint="@color/foregrounfNavButtons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/goToMusicList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/backgroundNavButtons"
+        android:tint="@color/foregrounfNavButtons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageView
+        android:id="@+id/fullScreenView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="@color/black"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

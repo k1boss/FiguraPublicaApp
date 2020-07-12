@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FiguraPublica</string>
+    <string name="intro_quote">“The beautiful thing about learning is nobody can take it away from you.”</string>
+    <string name="biography">Riley B. King (September 16, 1925 – May 14, 2015), known professionally as B.B. King, was an American singer-songwriter, guitarist, and record producer. King introduced a sophisticated style of soloing
+        based on fluid string bending and shimmering vibrato that influenced many later blues electric guitar players.\n\n
+        King was inducted into the Rock and Roll Hall of Fame in 1987, and is one of the most influential blues musicians of all time, earning the nickname "The King of the Blues", and is considered one of the "Three Kings of the
+        Blues Guitar" (along with Albert King and Freddie King, none of whom are blood related).King performed tirelessly throughout his musical career, appearing on average at more than 200 concerts per year into his 70s. In 1956 alone, he appeared at 342 shows.\n\n
+        King was born on a cotton plantation in Itta Bena, Mississippi, and later worked at a cotton gin in Indianola, Mississippi. He was attracted to music and the guitar in church, and began his career in juke joints and local radio. He later
+        lived in Memphis, Tennessee, and Chicago, and as his fame grew, toured the world extensively. King died at the age of 89 in Las Vegas, Nevada, on May 14, 2015. </string>
+    <string name="nextbutton">nextButton</string>
+    <string name="howTo">How To</string>
+    <string name="about">About</string>
+    <string name="howToDescription">Use the Navigation Buttons on the bottom of the screen to navigate the pages.\n\nIn the Photo Album, tap the photos to view them in fullscreen, then tap them again to return to the Album\n\nIn the Music List, tap play to hear the song, tap pause to stop. You can also tap the YouTube icon to open the video to the song.\n\n Have fun!!!</string>
+    <string name="aboutApp">Developer: Carlos Viana\n\nDeveloped in: Ubuntu\n\nDeveloped using Android \t\t\tStudio</string>
+    <string name="song1">The Thrill Is Gone</string>
+    <string name="song2">Riding With The King</string>
+    <string name="song3">3 O\'Clock Blues</string>
+    <string name="song4">Ten Long Years</string>
+    <string name="song5">Worried Life Blues</string>
+</resources>
